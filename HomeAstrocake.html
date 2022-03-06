@@ -4,34 +4,210 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio - Astrocake</title>
+    <title>Inicio - Astrocakes</title>
     <link rel="icon" href="Images/MoonbitTransparent.png">
+    <style>
+        *{
+            font-family:'Times New Roman', Times, serif;
+            margin: 0;
+        }
+        #spaceList li{
+            display: inline-block;
+            padding-left:10px;
+            padding-right:10px;
+            font-size: 40px;
+        }
+        .whiteLinks{
+            color: white;
+            text-decoration: none;
+        }
+        .headerTable{
+            border-collapse: collapse;
+            background-color: rgb(1, 45, 70);
+            width: 100%;
+        }
+        td, th{
+            align-content: center;
+            vertical-align: middle;
+        }
+        .verticalTop{
+            vertical-align: top;
+        }
+        .verticalBottom{
+            vertical-align: bottom;
+        }
+        #spaceCenter{
+            background-color: rgb(66, 115, 128);
+            color: white;
+            text-align: center;
+        }
+        #tableCenter{
+            background-color: rgb(66, 115, 128);
+            width: 100%;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        #spaceProducts{
+            background-color: white;
+            color: rgb(120, 101, 51);
+            text-align: center;
+        }
+        #productsTable{
+            color: rgb(120, 101, 51);
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+        #catalogoLink{
+            color: rgb(120, 101, 51);
+            text-decoration: none;
+            font-size: 30px;
+            margin: 0 auto;
+            display: inline-block;
+        }
+        #spaceContact{
+            background-color: rgb(60, 50, 82);
+            color: orange;
+            text-align: center;
+            width:100%;
+            border-collapse: collapse;
+        }
+        #spaceContactLink{
+            color: orange;
+            text-decoration: none;
+            margin: 0 auto;
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
-    <a href="HomeAstrocake.html">
-        <img src="Images/AstrocakesTitle.png" alt="Name logo" width="333" height="176">
-    </a>
+    <table class="headerTable">
+        <tr>
+            <td align="center">
+                <a href="HomeAstrocake.html">
+                    <img src="Images/AstrocakesTitle.png" alt="Name logo" width="333" height="176">
+                </a>
+            </td>
+            <td id="spaceList" align="center" style="width:65%">
+                <ul>
+                    <li><a href="HomeAstrocake.html" class="whiteLinks">Inicio</a></li>
+                    <li><a href="CatalogoAstrocake.html" class="whiteLinks">Catálogo</a></li>
+                    <li><a href="FormularioPedidosAstrocake.html" class="whiteLinks">Realizar pedido</a></li>
+                </ul>
+            </td>
+        </tr>
+    <table>
+    
+    <div id="spaceCenter">
+        <br>
+        <h1>¡Bienvenido a Astrocakes!</h1>
+        <br>
+        <table id="tableCenter">
+            <tr>
+                <td style="width:33%" align="right" class="verticalTop">
+                    <img src="Images/8bitscake.gif" alt="PastelFlotante" width="96" height="81">
+                    <img src="Images/Rocket1.gif" alt="Rocket" width="210" height="191">
+                </td>
+                <td rowspan="3" align="center">
+                    <img src="Images/Astrocakes.png" alt="Astrocakes logo" width="500" height="500">
+                </td>
+                <td style="width:33%" align="center" >
+                    <img src="Images/8bitscake.gif" alt="PastelFlotante" width="96" height="81">
+                </td>
+            </tr>
+            <tr>
+                <td style="width:33%" align="center" class="verticalBottom">
+                    <img src="Images/BluePlanet1.png" alt="Planeta azul" width="76" height="75">
+                </td>
+                <td>
+                    <img src="Images/RedPlanet1.png" alt="Planeta rojo" width="160" height="126">
+                    <img src="Images/BluePlanet1.png" alt="Planeta azul" width="76" height="75">
+                </td>
+            </tr>
+            <tr>
+                <td style="width:33%" align="center">
+                    <img src="Images/8bitscake.gif" alt="PastelFlotante" width="72" height="61" class="verticalTop">
+                    <img src="Images/RedPlanet1.png" alt="Planeta rojo" width="160" height="126">
+                </td>
+                <td style="width:33%" align="center" class="verticalBottom"> 
+                    <img src="Images/Astronaut1.gif" alt="Astronauta" width="272" height="308">
+                    <img src="Images/8bitscake.gif" alt="PastelFlotante" width="72" height="61">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h2 id="spaceCenter">Tenemos los mejores pasteles fuera de este planeta.</h2>
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </div>
 
-    <ul>
-        <li><a href="HomeAstrocake.html">Inicio</a></li>
-        <li><a href="HomeAstrocake.html">Catálogo</a></li>
-        <li><a href="HomeAstrocake.html">Realizar pedido</a></li>
-    </ul>
-    
-    <h1>¡Bienvenido a Astrocakes!</h1>
-    <img src="Images/Astrocakes.png" alt="Astrocakes logo">
-    <h3>Tenemos los mejores pasteles fuera de este planeta.</h3>
-    <p>Dirección: Calle Galaxia No. 14307, Col. Osa Mayor.</p>
-    <p>Teléfono: 558 222 34 76.</p>
-    <p>Horarios de atención:</p>
-    <ul>
-        <li>Lunes a Viernes: 9:00 AM - 8:00 PM</li>
-        <li>Sábado y Domingo: 11:00 AM - 6:00 PM</li>
-        <li>Días festivos: 12:00 AM - 4:00 PM</li>
-    </ul>
-    
+    <div id="spaceProducts">
+        <br>
+        <h2>---------------------------------------- Nuestros productos ----------------------------------------</h2>
+        <br>
+        <p>Contamos con una extensa gama de productos, sabores y combinaciones</p>
+        <br>
+        <table id="productsTable">
+            <tr>
+                <td style="width:50%"> 
+                    <img src="Images/PastelPiña.png" alt="Pastel de Piña" width="60%" height="60%">
+                    <h3>Pasteles<h3>
+                </td>
+                <td>
+                    <img src="Images/CheesecakeZarzamora.jpg" alt="Cheesecake de Zarzamora" width="70%" height="70%">
+                    <h3>Cheesecakes</h3>
+                </td>
+            </tr>
+            <tr>
+                <td style="width:50%">
+                    <img src="Images/PastelEspacio.jpg" alt="Pastel Espacial" width="50%" height="50%">
+                    <h3>Pasteles especiales sobre pedido</h3>
+                </td>
+                <td>
+                    <img src="Images/GelatinaMango.jpg" alt="Gelatina de Mango" width="70%" height="70%">
+                    <h3>Gelatinas</h3>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <a href="CatalogoAstrocake.html" id="catalogoLink">Ir al catálogo</a>
+        <br>
+        <br>
+    </div>
+
+    <table id="spaceContact">
+        <tr>
+            <td style="width:40%">
+                <img src="Images/MoonbitTransparent.png" alt="Moonbit" width="150" height="150">
+            </td>
+            <td style="width:40%" align="justify">
+                <br>
+                <h3>---------- Sucursal Galaxia ----------</h3>
+                <p>Calle Galaxia 14307, Col. Osa Mayor.</p>
+                <p><b>Teléfono:</b> 558 222 3476.</p>
+                <p><b>WhatsApp:</b> +52 222 763 4558.</p>
+                <p><b>Correo:</b> ventas@astrocakes.com</p>
+                <p><b>Horarios de atención:</b></p>
+                <ul>
+                    <li>Lunes a Viernes: 9:00 AM - 8:00 PM</li>
+                    <li>Sábado y Domingo: 11:00 AM - 6:00 PM</li>
+                </ul>
+                <br>
+            </td>
+            <td align="left">
+                <img src="Images/Rocket2.gif" alt="Cohete" width="267" height="200">
+            </td>
+        </tr>
+        <tr>
+            <td  align="left">
+                Copyright &copy 2021 Astrocakes.
+            </td>
+            <td colspan="2" align="right">
+                <a href="https://github.com/MartinOtamendiT" target="blank" title="Github @MartinOtamendiT" 
+                id="spaceContactLink">Página ficticia creada por: @MartinOtamendiT</a>
+            </td>
+        </tr>
+    </table>
 </body>
-<footer>
-    <p>Copyright &copy 2021 Astrocakes. Todos los derechos reservados.</p>
-</footer>
 </html>
