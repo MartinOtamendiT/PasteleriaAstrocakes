@@ -17,7 +17,7 @@
             display: inline-block;
             padding-left:10px;
             padding-right:10px;
-            font-size: 40px;
+            font-size: 3vw;
         }
         .whiteLinks{
             color: white;
@@ -32,19 +32,35 @@
             align-content: center;
             vertical-align: middle;
         }
-
+        #formulario{
+            background-color: rgb(66, 115, 128);
+            color: white;
+            margin: 0 auto;
+            width: 100%;
+            font-size: 1.2vw;
+        }
+        td.pasteles{
+            text-align: center;
+            width: 17.5%;
+        }
+        td.imagen{
+            width: 15%;
+            text-align: center;
+        }
         #spaceContact{
             background-color: rgb(60, 50, 82);
             color: orange;
             text-align: center;
             width:100%;
             border-collapse: collapse;
+            font-size: 1.2vw;
         }
         #spaceContactLink{
             color: orange;
             text-decoration: none;
             margin: 0 auto;
             display: inline-block;
+            font-size: 1.2vw;
         }
     </style>
 </head>
@@ -65,6 +81,219 @@
             </td>
         </tr>
     <table>
+
+    <table id="formulario">
+        <tr>
+            <th colspan="6" align="center">
+                <br>
+                <h2>---------------------------------------- Pedido ----------------------------------------</h2>
+                <br>
+                <p>Solo puede solicitar un pastel, gelatina o cheesecake por formulario</p>
+                <br>
+            </th>
+        </tr>
+        <tr>
+            <td rowspan="3" class="imagen" align="left">
+                <img src="Images/Alien1.gif" alt="Alien1" width="100%" height="100%">
+                <img src="Images/Ovni1.gif" alt="OVNI" width="100%" height="100%">
+            </td>
+            <td colspan="4" align="center">
+                <form action="PedidosPast.html" id="form1" method="get">
+                    <h2>-------------------- Datos personales --------------------</h2>
+                    <br>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre">
+                    <br><br>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" maxlength="10">
+                    <br><br>
+                    <label for="correo">Correo:</label>
+                    <input type="email" id="correo" name="correo">
+                    <br><br>
+                    <label for="descrip">Descripción del pastel que desea:</label>
+                    <br>
+                    <textarea id="descrip" name="descrip" rows="12" cols="50"></textarea>
+                    <br><br>
+
+                    <h2>-------------------- Selección de sabores de pastel --------------------</h2>
+                    <p>Máximo 3</p>
+                    <br>
+                    <label for="sabor1p">Sabor 1:</label>
+                    <select id="sabor1p" name="sabor1p">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="Piña">Piña</option>
+                        <option value="Zarzamora">Zarzamora</option>
+                        <option value="Nuez">Nuez</option>
+                        <option value="Capuchino">Capuchino</option>
+                        <option value="Durazno">Durazno</option>
+                        <option value="Moka">Moka</option>
+                        <option value="Limón">Limón</option>
+                        <option value="Chabacano">Chabacano</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Fresa">Fresa</option>
+                        <option value="Cajeta">Cajeta</option>
+                        <option value="Piñón">Piñón</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Almendra">Almendra</option>
+                        <option value="Pistache">Pistache</option>
+                        <option value="Frutos rojos">Frutos rojos</option>
+                        <option value="Especial">Especial</option>
+                    </select>
+                    <br><br>
+                    <label for="sabor2p">Sabor 2:</label>
+                    <select id="sabor2p" name="sabor2p">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="Piña">Piña</option>
+                        <option value="Zarzamora">Zarzamora</option>
+                        <option value="Nuez">Nuez</option>
+                        <option value="Capuchino">Capuchino</option>
+                        <option value="Durazno">Durazno</option>
+                        <option value="Moka">Moka</option>
+                        <option value="Limón">Limón</option>
+                        <option value="Chabacano">Chabacano</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Fresa">Fresa</option>
+                        <option value="Cajeta">Cajeta</option>
+                        <option value="Piñón">Piñón</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Almendra">Almendra</option>
+                        <option value="Pistache">Pistache</option>
+                        <option value="Frutos rojos">Frutos rojos</option>
+                        <option value="Especial">Especial</option>
+                    </select>
+                    <br><br>
+                    <label for="sabor3p">Sabor 3:</label>
+                    <select id="sabor3p" name="sabor3p">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="Piña">Piña</option>
+                        <option value="Zarzamora">Zarzamora</option>
+                        <option value="Nuez">Nuez</option>
+                        <option value="Capuchino">Capuchino</option>
+                        <option value="Durazno">Durazno</option>
+                        <option value="Moka">Moka</option>
+                        <option value="Limón">Limón</option>
+                        <option value="Chabacano">Chabacano</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Fresa">Fresa</option>
+                        <option value="Cajeta">Cajeta</option>
+                        <option value="Piñón">Piñón</option>
+                        <option value="Oreo">Oreo</option>
+                        <option value="Almendra">Almendra</option>
+                        <option value="Pistache">Pistache</option>
+                        <option value="Frutos rojos">Frutos rojos</option>
+                        <option value="Especial">Especial</option>
+                    </select>
+                    <br><br>
+
+                    <h2>-------------------- Selección de sabores de gelatina --------------------</h2>
+                    <p>Máximo 3</p>
+                    <br>
+                    <label for="sabor1g">Sabor 1:</label>
+                    <select id="sabor1g" name="sabor1g">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="gUva">Uva</option>
+                        <option value="gMango">Mango</option>
+                        <option value="gMosaicoPiña">Mosaico de Piña</option>
+                        <option value="gCereza">Cereza</option>
+                    </select>
+                    <br><br>
+                    <label for="sabor2g">Sabor 2:</label>
+                    <select id="sabor2g" name="sabor2g">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="gUva">Uva</option>
+                        <option value="gMango">Mango</option>
+                        <option value="gMosaicoPiña">Mosaico de Piña</option>
+                        <option value="gCereza">Cereza</option>
+                    </select>
+                    <br><br>
+                    <label for="sabor3g">Sabor 3:</label>
+                    <select id="sabor3g" name="sabor3g">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="gUva">Uva</option>
+                        <option value="gMango">Mango</option>
+                        <option value="gMosaicoPiña">Mosaico de Piña</option>
+                        <option value="gCereza">Cereza</option>
+                    </select>
+                    <br><br>
+
+                    <h2>-------------------- Selección de sabores de cheesecake --------------------</h2>
+                    <p>Máximo 3</p>
+                    <br>
+                    <label for="sabor1c">Sabor 1:</label>
+                    <select id="sabor1c" name="sabor1c">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="cLimon">Limón</option>
+                        <option value="CZarzamora">Zarzamora</option>
+                        <option value="cMango">Mango</option>
+                        <option value="cPiña">Piña</option>
+                    </select>
+                    <br><br>
+                    <label for="sabor2c">Sabor 2:</label>
+                    <select id="sabor2c" name="sabor2c">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="cLimon">Limón</option>
+                        <option value="CZarzamora">Zarzamora</option>
+                        <option value="cMango">Mango</option>
+                        <option value="cPiña">Piña</option>
+                    </select>
+                    <br><br>
+                    <label for="sabor3c">Sabor 3:</label>
+                    <select id="sabor3c" name="sabor3c">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="cLimon">Limón</option>
+                        <option value="CZarzamora">Zarzamora</option>
+                        <option value="cMango">Mango</option>
+                        <option value="cPiña">Piña</option>
+                    </select>
+                    <br><br>
+
+                    <h2>-------------------- Selección de adornos --------------------</h2>
+                    <p>Máximo 3</p>
+                    <p>Nota: Los pasteles, gelatinas y cheesecakes ya incluyen adornos correspondientes a sus sabores.</p>
+                    <br>
+                    <label for="adorno1">Adorno 1:</label>
+                    <select id="adorno1" name="adorno1">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="Frutas">Frutas</option>
+                        <option value="FrutosRojos">Frutos Rojos</option>
+                        <option value="FrutosSecos">Frutos Secos</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Gelatina">Gelatina</option>
+                        <option value="Especial">Especial</option>
+                    </select>
+                    <br><br>
+                    <label for="adorno2">Adorno 2:</label>
+                    <select id="adorno2" name="adorno2">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="Frutas">Frutas</option>
+                        <option value="FrutosRojos">Frutos Rojos</option>
+                        <option value="FrutosSecos">Frutos Secos</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Gelatina">Gelatina</option>
+                        <option value="Especial">Especial</option>
+                    </select>
+                    <br><br>
+                    <label for="adorno3">Adorno 3:</label>
+                    <select id="adorno3" name="adorno3">
+                        <option value="Ningnno">Ninguno</option>
+                        <option value="Frutas">Frutas</option>
+                        <option value="FrutosRojos">Frutos Rojos</option>
+                        <option value="FrutosSecos">Frutos Secos</option>
+                        <option value="Chocolate">Chocolate</option>
+                        <option value="Gelatina">Gelatina</option>
+                        <option value="Especial">Especial</option>
+                    </select>
+                    <br><br>
+                    <input type="submit" value="Submit">
+                    <input type="reset">
+                </form>
+            </td>
+            <td rowspan="3" class="imagen" align="left">
+                <img src="Images/LegoBenny.png" alt="Benny" width="100%" height="100%">
+                <img src="Images/Planet1.gif" alt="Benny" width="100%" height="100%">
+            </td>
+        </tr>
+    </table>
 
     <table id="spaceContact">
         <tr>
