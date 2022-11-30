@@ -8,61 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Catálogo - Astrocakes</title>
     <link rel="icon" href="../img/MoonbitTransparent.png">
-    <style>
-        *{
-            font-family:'Times New Roman', Times, serif;
-            margin: 0;
-        }
-        #spaceList li{
-            display: inline-block;
-            padding-left:10px;
-            padding-right:10px;
-            font-size: 3vw;
-        }
-        .whiteLinks{
-            color: white;
-            text-decoration: none;
-        }
-        .headerTable{
-            border-collapse: collapse;
-            background-color: rgb(1, 45, 70);
-            width: 100%;
-        }
-        td, th{
-            align-content: center;
-            vertical-align: middle;
-        }
-        #catalogo{
-            background-color: rgb(66, 115, 128);
-            color: white;
-            margin: 0 auto;
-            width: 100%;
-            font-size: 1.2vw;
-        }
-        td.pasteles{
-            text-align: center;
-            width: 17.5%;
-        }
-        td.imagen{
-            width: 15%;
-            text-align: center;
-        }
-        #spaceContact{
-            background-color: rgb(60, 50, 82);
-            color: orange;
-            text-align: center;
-            width:100%;
-            border-collapse: collapse;
-            font-size: 1.2vw;
-        }
-        #spaceContactLink{
-            color: orange;
-            text-decoration: none;
-            margin: 0 auto;
-            display: inline-block;
-            font-size: 1.2vw;
-        }
-    </style>
+    <!--link rel="stylesheet" href="../css/astroStyles.css"-->
+    <link rel="stylesheet" href="../css/bootstrap-5.2.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/catalogoStyles.css">
 </head>
 <body>
     <header>
@@ -71,16 +19,323 @@
     <nav>
 
     </nav>
-    <section>
+    <section class="container-fluid catalogo">
+        <div class="row g-0">
+            <div class="col-12">
+                <h2>------ Nuestros productos -----</h2>
+                <p>Contamos con una extensa gama de productos, sabores y combinaciones</p>
+            </div>
+        </div>
+        
+        <div class="row g-0">
+            <div class="col-2 align-self-center">
+                <img class="alien" src="../img/Alien1.gif" alt="Alien1">
+            </div>
+            <div class="col-8">
+                <div class="row g-0">
+                    <div class="col-12">
+                        <h2>----- Pasteles -----</h2>
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelPiña.png" alt="Pastel de Piña">
+                        <h3>Piña<h3>
+                        <h4>$215.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelZarzamora.png" alt="Pastel de Zarzamora">
+                        <h3>Zarzamora<h3>
+                        <h4>$270.00<h4S>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelNuez.png" alt="Pastel de Nuez">
+                        <h3>Nuez<h3>
+                        <h4>$270.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelCapuchino.png" alt="Pastel de Capuchino">
+                        <h3>Capuchino<h3>
+                        <h4>$210.00<h4>
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelDurazno.png" alt="Pastel de Durazno">
+                        <h3>Durazno<h3>
+                        <h4>$210.00<h4>
+                        </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelMoka.png" alt="Pastel de Moka">
+                        <h3>Moka<h3>
+                        <h4>$210.00<h4>
+                        </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelLimon.png" alt="Pastel de Limón">
+                        <h3>Limón<h3>
+                        <h4>$215.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelChabacano.png" alt="Pastel de Chabacano">
+                        <h3>Chabacano<h3>
+                        <h4>$270.00<h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 align-self-center">
+                <img class="saturn" src="../img/Planet1.gif" alt="Planeta" width="100%" height="100%">
+            </div>
+        </div>
+        <div class="row g-0">
+            <div class="col-2 align-self-center"></div>
+            <div class="col-8">
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelChocolate.png" alt="Pastel de Chocolate">
+                        <h3>Chocolate<h3>
+                        <h4>$230.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelFresa.png" alt="Pastel de Fresa">
+                        <h3>Fresa<h3>
+                        <h4>$250.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelCajeta.png" alt="Pastel de Cajeta">
+                        <h3>Cajeta<h3>
+                        <h4>$210.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelPiñon.png" alt="Pastel de Piñón">
+                        <h3>Piñón<h3>
+                        <h4>$400.00<h4></h4>
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelOreo.png" alt="Pastel de Oreo">
+                        <h3>Oreo<h3>
+                        <h4>$280.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelAlmendra.png" alt="Pastel de Almendra">
+                        <h3>Almendra<h3>
+                        <h4>$270.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelPistache.png" alt="Pastel de Pistache">
+                        <h3>Pistache<h3>
+                        <h4>$280.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/PastelFrutosRojos.png" alt="Pastel de Frutos Rojos">
+                        <h3>Frutos rojos<h3>
+                        <h4>$280.00<h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 align-self-center">
+                <img class="rocket1" src="../img/Rocket1.gif" alt="Cohete">
+            </div>
+        </div>
 
+        <div class="row g-0">
+            <div class="col-2 align-self-center">
+                <img class="ovni1" src="../img/Ovni2.gif" alt="OVNI">
+            </div>
+            <div class="col-8">
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12">
+                        <h2>----- Gelatinas -----</h2>
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/GelatinaUva.png" alt="Gelatina de Uva">
+                        <h3>Uva<h3>
+                        <h4>$150.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/GelatinaMango.png" alt="Gelatina de Mango">
+                        <h3>Mango<h3>
+                        <h4>$150.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/GelatinaCereza.png" alt="Gelatina de Cereza">
+                        <h3>Cereza<h3>
+                        <h4>$170.00<h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/GelatinaMosaicoPiña.png" alt="Gelatina Mosaico Piña">
+                        <h3>Mosaico de piña<h3>
+                        <h4>$170.00<h4>
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12">
+                        <h2>----- Cheesecakes -----</h2>
+                    </div>
+                </div>
+                <div class="row g-0 justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/CheeseLimon.jpg" alt="Cheesecake de Limón">
+                        <h3>Limón</h3>
+                        <h4>$150.00</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/CheeseZarzamora.png" alt="Cheesecake de Zarzamora">
+                        <h3>Zarzamora</h3>
+                        <h4>$170.00</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/CheesePiña.png" alt="Cheesecake de Piña">
+                        <h3>Piña</h3>
+                        <h4>$150.00</h4>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-3 pasteles">
+                        <img src="../img/CheeseMango.png" alt="Cheesecake de Mango">
+                        <h3>Mango</h3>
+                        <h4>$150.00</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2 align-self-end">
+                <img class="astronaut1" src="../img/Astronaut1.gif" alt="Astronauta">
+            </div>
+        </div>
+
+        <div class="row">
+        <!--div>
+            <div class="col-lg-2"></div>
+            <td colspan="4" align="center">
+                <h2>-------------------- Adornos --------------------</h2>
+            </td>
+            <div class="col-lg-2"></div>
+            <td rowspan="3" class="imagen">
+                <img src="../img/Astronaut1.gif" alt="Astronauta" width="100%" height="100%">
+            </td>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 pasteles">
+                <h3>Frutas<h3>
+                <h4>(Mango, durazno, piña, limón, coco, uva)</h4>
+                <h4>$40.00<h4>
+            </div>
+            <div class="col-lg-2 pasteles">
+                <h3>Frutos rojos<h3>
+                <h4>(Fresa, zarzamora, mora azul, frambuesa, arándano rojo, cereza)</h4>
+                <h4>$70.00<h4>
+            </div>
+            <div class="col-lg-2 pasteles">
+                <h3>Frutos secos<h3>
+                <h4>(Nuez, almendra, avellana, pistache)</h4>
+                <h4>$70.00<h4>
+            </div>
+            <div class="col-lg-2 pasteles">
+                <h3>Chocolate<h3>
+                <h4>(Blanco, amargo)</h4>
+                <h4>(Líquido, chispas, rayadura)</h4>
+                <h4>$50.00<h4>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="pasteles"></div>
+            <div class="pasteles">
+                <h3>Gelatina<h3>
+                <h4>(Limon, Piña, Cereza, Uva, Mango, Naranja, Durazno, Mora azul)</h4>
+                <h4>$60.00<h4>
+            </td>
+            <td class="pasteles">
+                <h3>Especial<h3>
+                <h4>(Figuras, chocolates decorados)</h4>
+                <h4>Solicite presupuesto<h4>
+            </td>
+            <td class="pasteles"></td>
+        </div-->
     </section>
     <aside>
 
     </aside>
-    <footer>
+    <footer class="container-fluid">
+        <div class="row g-0">
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 align-self-center">
+                <div class="row g-0 justify-content-center">
+                    <a href="../index.html">
+                        <img src="../img/Astrocakes-word.png">
+                    </a>
+                </div> 
+                <div class="row g-0 justify-content-center">
+                    <p>Somos una empresa 100% galáctica con 6 años
+                        de experiencia en la repostería espacial.
+                        en la elaboración de pasteles fuera de este mundo.
+                    </p>
+                    <p>Buscamos satisfacer los gustos de cualquier ser viviente
+                        en el universo, a través de un servicio de calidad y
+                        productos elaborados con los mejores ingredientes de la 
+                        galaxia.
+                    </p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 align-self-center">
+                <div class="row g-0 justify-content-center">
+                    <h3>----- Sucursal Galaxia -----</h3>
+                    <p>Calle Galaxia 14307, Col. Osa Mayor.</p>
+                    <p><b>Teléfono:</b> 558 222 3476.</p>
+                    <p><b>WhatsApp:</b> +52 222 763 4558.</p>
+                    <p><b>Correo:</b> ventas@astrocakes.com</p>
+                    <p><b>Horarios de atención:</b></p>
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-4 col-lg-4 align-self-center">
+                <div class="row g-0 justify-content-center">
+                    <p>Lunes a Viernes: 9:00 AM - 8:00 PM</p>
+                    <p>Sábado y Domingo: 11:00 AM - 6:00 PM</p>
+                </div>
+            </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2020 Copyright:
+            <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+            <!--div class="col">
+                <img src="../img/MoonbitTransparent.png" alt="Moonbit">
+            </div-->
+            <!--div class="col">
+            <div class="col-8">
+                <div class="row g-0 justify-content-center">
+
+            </div>
+            <div class="col">
+                <br>
+                <h3>----- Sucursal Galaxia -----</h3>
+                <p>Calle Galaxia 14307, Col. Osa Mayor.</p>
+                <p><b>Teléfono:</b> 558 222 3476.</p>
+                <p><b>WhatsApp:</b> +52 222 763 4558.</p>
+                <p><b>Correo:</b> ventas@astrocakes.com</p>
+                <p><b>Horarios de atención:</b></p>
+                <ul>
+                    <li>Lunes a Viernes: 9:00 AM - 8:00 PM</li>
+                    <li>Sábado y Domingo: 11:00 AM - 6:00 PM</li>
+                </ul>
+                <br>
+            </div>
+            <!--div class="col" align="left">
+                <img src="../img/Rocket2.gif" alt="Cohete" width="100%" height="100%">
+            </div-->
+        <!--/div>
         
+        <!--div>
+            <td  align="left">
+                Copyright &copy 2021 Astrocakes.
+            </td>
+            <td colspan="2" align="right">
+                <a href="https://github.com/MartinOtamendiT" target="blank" title="Github @MartinOtamendiT" 
+                id="spaceContactLink">Página ficticia creada por: @MartinOtamendiT</a>
+            </td>
+        </div-->
     </footer>
-    <table class="headerTable">
+    <!--table class="headerTable">
         <tr>
             <td align="center">
                 <a href="../index.html">
@@ -95,257 +350,7 @@
                 </ul>
             </td>
         </tr>
-    <table>
-
-    <table id="catalogo">
-        <tr>
-            <th colspan="6" align="center">
-                <br>
-                <h2>---------------------------------------- Nuestros productos ----------------------------------------</h2>
-                <br>
-                <p>Contamos con una extensa gama de productos, sabores y combinaciones</p>
-                <br>
-            </th>
-        </tr>
-        <tr>
-            <td rowspan="3" class="imagen" align="left">
-                <img src="../img/Alien1.gif" alt="Alien1" width="100%" height="100%">
-            </td>
-            <td colspan="4" align="center">
-                <h2>-------------------- Pasteles --------------------</h2>
-            </td>
-            <td rowspan="3" class="imagen">
-                <img src="../img/Planet1.gif" alt="Planeta" width="100%" height="100%">
-            </td>
-        </tr>
-        <tr>
-            <td class="pasteles">
-                <img src="../img/PastelPiña.png" alt="Pastel de Piña" width="80%" height="80%">
-                <h3>Piña<h3>
-                <h4>$215.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelZarzamora.png" alt="Pastel de Zarzamora" width="80%" height="80%">
-                <h3>Zarzamora<h3>
-                <h4>$270.00<h4S>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelNuez.png" alt="Pastel de Nuez" width="80%" height="80%">
-                <h3>Nuez<h3>
-                <h4>$270.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelCapuchino.png" alt="Pastel de Capuchino" width="80%" height="80%">
-                <h3>Capuchino<h3>
-                <h4>$210.00<h4>
-            </td>
-        </tr>
-        <tr>
-            <td class="pasteles">
-                <img src="../img/PastelDurazno.png" alt="Pastel de Durazno" width="80%" height="80%">
-                <h3>Durazno<h3>
-                <h4>$210.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelMoka.png" alt="Pastel de Moka" width="80%" height="80%">
-                <h3>Moka<h3>
-                <h4>$210.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelLimon.png" alt="Pastel de Limón" width="80%" height="80%">
-                <h3>Limón<h3>
-                <h4>$215.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelChabacano.png" alt="Pastel de Chabacano" width="80%" height="80%">
-                <h3>Chabacano<h3>
-                <h4>$270.00<h4>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="3" class="imagen"></td>
-            <td class="pasteles">
-                <img src="../img/PastelChocolate.png" alt="Pastel de Chocolate" width="80%" height="80%">
-                <h3>Chocolate<h3>
-                <h4>$230.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelFresa.png" alt="Pastel de Fresa" width="80%" height="80%">
-                <h3>Fresa<h3>
-                <h4>$250.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelCajeta.png" alt="Pastel de Cajeta" width="80%" height="80%">
-                <h3>Cajeta<h3>
-                <h4>$210.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelPiñon.png" alt="Pastel de Piñón" width="80%" height="80%">
-                <h3>Piñón<h3>
-                <h4>$400.00<h4></h4>
-            </td>
-            <td rowspan="3" class="imagen"><img src="../img/Rocket1.gif" alt="Cohete" width="100%" height="100%"></td>
-        </tr>
-        <tr>
-            <td class="pasteles">
-                <img src="../img/PastelOreo.png" alt="Pastel de Oreo" width="80%" height="80%">
-                <h3>Oreo<h3>
-                <h4>$280.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelAlmendra.png" alt="Pastel de Almendra" width="80%" height="80%">
-                <h3>Almendra<h3>
-                <h4>$270.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelPistache.png" alt="Pastel de Pistache" width="80%" height="80%">
-                <h3>Pistache<h3>
-                <h4>$280.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/PastelFrutosRojos.png" alt="Pastel de Frutos Rojos" width="80%" height="80%">
-                <h3>Frutos rojos<h3>
-                <h4>$280.00<h4>
-            </td>
-        </tr>
-        <tr>
-            <td colspan="4" align="center">
-                <h2>-------------------- Gelatinas --------------------</h2>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="3" class="imagen">
-                <img src="../img/Ovni2.gif" alt="OVNI" width="100%" height="100%">
-            </td>
-            <td class="pasteles">
-                <img src="../img/GelatinaUva.png" alt="Gelatina de Uva" width="80%" height="80%">
-                <h3>Uva<h3>
-                <h4>$150.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/GelatinaMango.png" alt="Gelatina de Mango" width="80%" height="80%">
-                <h3>Mango<h3>
-                <h4>$150.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/GelatinaCereza.png" alt="Gelatina de Cereza" width="80%" height="80%">
-                <h3>Cereza<h3>
-                <h4>$170.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/GelatinaMosaicoPiña.png" alt="Gelatina Mosaico Piña" width="80%" height="80%">
-                <h3>Mosaico de piña<h3>
-                <h4>$170.00<h4>
-            </td>
-            <td rowspan="3" class="imagen"></td>
-        </tr>
-        <tr>
-            <td colspan="4" align="center">
-                <h2>-------------------- Cheesecakes --------------------</h2>
-            </td>
-        </tr>
-        <tr>
-            <td class="pasteles">
-                <img src="../img/CheeseLimon.jpg" alt="Cheesecake de Limón" width="80%" height="80%">
-                <h3>Limón<h3>
-                <h4>$150.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/CheeseZarzamora.png" alt="Cheesecake de Zarzamora" width="80%" height="80%">
-                <h3>Zarzamora<h3>
-                <h4>$170.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/CheesePiña.png" alt="Cheesecake de Piña" width="80%" height="80%">
-                <h3>Piña<h3>
-                <h4>$150.00<h4>
-            </td>
-            <td class="pasteles">
-                <img src="../img/CheeseMango.png" alt="Cheesecake de Mango" width="80%" height="80%">
-                <h3>Mango<h3>
-                <h4>$150.00<h4>
-            </td>
-        </tr>
-        <tr>
-            <td rowspan="3" class="imagen"></td>
-            <td colspan="4" align="center">
-                <h2>-------------------- Adornos --------------------</h2>
-            </td>
-            <td rowspan="3" class="imagen">
-                <img src="../img/Astronaut1.gif" alt="Astronauta" width="100%" height="100%">
-            </td>
-        </tr>
-        <tr>
-            <td class="pasteles">
-                <h3>Frutas<h3>
-                <h4>(Mango, durazno, piña, limón, coco, uva)</h4>
-                <h4>$40.00<h4>
-            </td>
-            <td class="pasteles">
-                <h3>Frutos rojos<h3>
-                <h4>(Fresa, zarzamora, mora azul, frambuesa, arándano rojo, cereza)</h4>
-                <h4>$70.00<h4>
-            </td>
-            <td class="pasteles">
-                <h3>Frutos secos<h3>
-                <h4>(Nuez, almendra, avellana, pistache)</h4>
-                <h4>$70.00<h4>
-            </td>
-            <td class="pasteles">
-                <h3>Chocolate<h3>
-                <h4>(Blanco, amargo)</h4>
-                <h4>(Líquido, chispas, rayadura)</h4>
-                <h4>$50.00<h4>
-            </td>
-        </tr>
-        <tr>
-            <td class="pasteles"></td>
-            <td class="pasteles">
-                <h3>Gelatina<h3>
-                <h4>(Limon, Piña, Cereza, Uva, Mango, Naranja, Durazno, Mora azul)</h4>
-                <h4>$60.00<h4>
-            </td>
-            <td class="pasteles">
-                <h3>Especial<h3>
-                <h4>(Figuras, chocolates decorados)</h4>
-                <h4>Solicite presupuesto<h4>
-            </td>
-            <td class="pasteles"></td>
-        </tr>
-    </table>
-        
-    <table id="spaceContact">
-        <tr>
-            <td style="width:40%">
-                <img src="../img/MoonbitTransparent.png" alt="Moonbit" width="30%" height="30%">
-            </td>
-            <td style="width:40%" align="justify">
-                <br>
-                <h3>---------- Sucursal Galaxia ----------</h3>
-                <p>Calle Galaxia 14307, Col. Osa Mayor.</p>
-                <p><b>Teléfono:</b> 558 222 3476.</p>
-                <p><b>WhatsApp:</b> +52 222 763 4558.</p>
-                <p><b>Correo:</b> ventas@astrocakes.com</p>
-                <p><b>Horarios de atención:</b></p>
-                <ul>
-                    <li>Lunes a Viernes: 9:00 AM - 8:00 PM</li>
-                    <li>Sábado y Domingo: 11:00 AM - 6:00 PM</li>
-                </ul>
-                <br>
-            </td>
-            <td align="left">
-                <img src="../img/Rocket2.gif" alt="Cohete" width="100%" height="100%">
-            </td>
-        </tr>
-        <tr>
-            <td  align="left">
-                Copyright &copy 2021 Astrocakes.
-            </td>
-            <td colspan="2" align="right">
-                <a href="https://github.com/MartinOtamendiT" target="blank" title="Github @MartinOtamendiT" 
-                id="spaceContactLink">Página ficticia creada por: @MartinOtamendiT</a>
-            </td>
-        </tr>
-    </table>
+    <table-->
+    <script type="text/javascript" src="../css/bootstrap-5.2.2-dist/js/bootstrap.bundle.js"></script>
 </body>
 </html>
