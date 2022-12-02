@@ -101,6 +101,7 @@ body{
         object-fit: contain;
         width: 8rem;
         border-radius: 100%;
+        margin-bottom: 1rem;
     }
     .login-window a{
         color: orange;

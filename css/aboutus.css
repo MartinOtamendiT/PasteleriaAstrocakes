@@ -33,14 +33,14 @@
     }
     body::-webkit-scrollbar-thumb {
         border-radius: 1rem;
-        background: #d62929;
+        background: #0B5137;
         background-image: url("../img/Rocket3-unscreen-cropped.gif");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
     }
     body::-webkit-scrollbar-thumb:hover{
-        background: #b30000; 
+        background: #001f409b; 
         background-image: url("../img/Rocket3-unscreen-cropped.gif");
         background-position: center;
         background-size: contain;
