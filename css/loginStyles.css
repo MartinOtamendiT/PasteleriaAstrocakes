@@ -83,81 +83,34 @@ body{
         transform: scale(1.5);
     }
 }
-.catalogo{
-    color: white;
-    text-align: center;
-    padding: 0;
-}
-    .catalogo h2{
-        font-size: 1.3rem;
-        font-weight: bold;
-        border-bottom: white 0.2rem dashed;
-    }
-    .alien{
-        object-fit: contain;
-        width: 10vw;
-    }
-    .saturn{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    .rocket1{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    .ovni1{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    .astronaut1{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    
-    .pasteles{
+    .login-window{
+        color: white;
         background: linear-gradient(#001f409b, #0B5137);
-        border-radius: 15%;
-        margin: 0.5rem;
-        display: flex;
-        flex-direction: column;
+        border-radius: 10px;
+        text-align: center;
+        width: 50%;
+        min-height: 100%;
+        padding: 2rem 5rem;
+        margin: 2rem 0;
+        display: flex; 
         justify-content: center;
         align-items: center;
-        max-width: 10rem;
-        min-width: 8rem;
-        min-height: 8rem;
+        flex-direction: column;
     }
-    .pasteles:hover{
-        background: linear-gradient(#0B5137,#001f409b);
+    .astronaut-login{
+        object-fit: contain;
+        width: 8rem;
+        border-radius: 100%;
     }
-        .pasteles img{
-            width: 8rem;
-            object-fit: contain;
-        }
-        .pasteles h3{
-            opacity: 0;
-            max-height:0;
-            font-size: 1rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        .pasteles:hover h3{
-            max-height: 1rem;
-            transition: all 0.3s ease;
-            opacity: 1;
-        }
-        .pasteles h4{
-            opacity: 0;
-            max-height:0;
-            font-size: 0.8rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        .pasteles:hover h4{
-            max-height: 0.8rem;
-            transition: all 0.3s ease;
-            opacity: 1;
-        }
-    
+    .login-window a{
+        color: orange;
+        text-decoration: none;
+    }
+    .login-window a:hover{
+        color: #ABCD4B;
+        text-decoration: underline;
+    }
+
 footer{
     background: linear-gradient(#956C38,#1F1A44) ;
     color: orange;
@@ -209,21 +162,3 @@ footer{
         width: 1rem;
         margin-right: 1rem;
     }
-
-@media screen and (max-width:960px) {
-    .alien{
-        width: 12vw;
-    }
-    .saturn{
-        width: 15vw; 
-    }
-    .rocket1{
-        width: 16vw; 
-    }
-    .ovni1{
-        width: 15vw; 
-    }
-    .astronaut1{
-        width: 15vw; 
-    }
-}

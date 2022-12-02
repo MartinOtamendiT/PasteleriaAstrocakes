@@ -1,13 +1,29 @@
-*{
-    font-family:'Times New Roman', Times, serif;
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-}
+.social-link {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    border-radius: 50%;
+    transition: all 0.3s;
+    font-size: 0.9rem;
+  }
+  
+  .social-link:hover,
+  .social-link:focus {
+    background: #ddd;
+    text-decoration: none;
+    color: #555;
+  }
+  
 
-body{
+
+  body{
     background: linear-gradient(#020108,#1F1A44);
-}
+    /*background-color:rgb(66, 115, 128);*/
+  }
     body::-webkit-scrollbar {
         width: 1rem;
     }
@@ -17,20 +33,20 @@ body{
     }
     body::-webkit-scrollbar-thumb {
         border-radius: 1rem;
-        background: #0B5137;
+        background: #d62929;
         background-image: url("../img/Rocket3-unscreen-cropped.gif");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
     }
     body::-webkit-scrollbar-thumb:hover{
-        background: #001f409b; 
+        background: #b30000; 
         background-image: url("../img/Rocket3-unscreen-cropped.gif");
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
     }
-.stars{
+  .stars{
     position: fixed;
     top: 50%;
     left: 50%;
@@ -74,91 +90,18 @@ body{
     25vw -39vh 2px 3px #fff;
     animation: zoom 10s alternate infinite;
     z-index: -1;
-}
-@keyframes zoom {
+  }
+  @keyframes zoom {
     0%{
         transform: scale(1);
     }
     100%{
         transform: scale(1.5);
     }
-}
-.catalogo{
-    color: white;
-    text-align: center;
-    padding: 0;
-}
-    .catalogo h2{
-        font-size: 1.3rem;
-        font-weight: bold;
-        border-bottom: white 0.2rem dashed;
-    }
-    .alien{
-        object-fit: contain;
-        width: 10vw;
-    }
-    .saturn{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    .rocket1{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    .ovni1{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    .astronaut1{
-        object-fit: contain;
-        width: 12vw; 
-    }
-    
-    .pasteles{
-        background: linear-gradient(#001f409b, #0B5137);
-        border-radius: 15%;
-        margin: 0.5rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        max-width: 10rem;
-        min-width: 8rem;
-        min-height: 8rem;
-    }
-    .pasteles:hover{
-        background: linear-gradient(#0B5137,#001f409b);
-    }
-        .pasteles img{
-            width: 8rem;
-            object-fit: contain;
-        }
-        .pasteles h3{
-            opacity: 0;
-            max-height:0;
-            font-size: 1rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        .pasteles:hover h3{
-            max-height: 1rem;
-            transition: all 0.3s ease;
-            opacity: 1;
-        }
-        .pasteles h4{
-            opacity: 0;
-            max-height:0;
-            font-size: 0.8rem;
-            font-weight: bold;
-            transition: all 0.3s ease;
-        }
-        .pasteles:hover h4{
-            max-height: 0.8rem;
-            transition: all 0.3s ease;
-            opacity: 1;
-        }
-    
-footer{
+  }
+
+
+  footer{
     background: linear-gradient(#956C38,#1F1A44) ;
     color: orange;
 }
@@ -210,20 +153,6 @@ footer{
         margin-right: 1rem;
     }
 
-@media screen and (max-width:960px) {
-    .alien{
-        width: 12vw;
+    .ff{
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
-    .saturn{
-        width: 15vw; 
-    }
-    .rocket1{
-        width: 16vw; 
-    }
-    .ovni1{
-        width: 15vw; 
-    }
-    .astronaut1{
-        width: 15vw; 
-    }
-}
