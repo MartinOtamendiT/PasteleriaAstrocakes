@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../css/bootstrap-5.2.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/loginStyles.css">
     <link rel="stylesheet" href="../css/load.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
     <div class="loader-container">
@@ -37,7 +39,7 @@
                 <li class="nav-item navtext">
                     <a class="nav-link navtext" href="../php/login.php"><p class=" ff">Login</p></a>
                 </li>
-                <a class="d-none d-lg-block" href="../index.html"><img src="/img/Astrocakes-word.png"></a>
+                <a class="d-none d-lg-block" href="../index.html"><img src="../img/Astrocakes-word.png"></a>
                 <li class="nav-item">
                     <a class="nav-link" href="../html/CatalogoAstrocake.html"><p class=" ff">Catálogo</p></a>
                 </li>
@@ -48,7 +50,6 @@
         </div>
     </nav>
     <!-- FIN NAVBAR -->
-    <BR><BR></BR></BR>
     <section class="container">
         <div class="row g-0 justify-content-center">
             <div class="login-window">

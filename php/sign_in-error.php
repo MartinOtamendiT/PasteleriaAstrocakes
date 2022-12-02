@@ -21,7 +21,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.cs">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -49,7 +49,7 @@
                 <li class="nav-item navtext">
                     <a class="nav-link navtext" href="../php/login.php"><p class=" ff">Login</p></a>
                 </li>
-                <a class="d-none d-lg-block" href="../index.html"><img src="/img/Astrocakes-word.png"></a>
+                <a class="d-none d-lg-block" href="../index.html"><img src="../img/Astrocakes-word.png"></a>
                 <li class="nav-item">
                     <a class="nav-link" href="../html/CatalogoAstrocake.html"><p class=" ff">Catálogo</p></a>
                 </li>
@@ -60,7 +60,7 @@
         </div>
     </nav>
     <!-- FIN NAVBAR -->
-    <BR><BR></BR></BR>
+    <br>
     <section class="container">
         <div class="row g-0 justify-content-center">
             <div class="login-window">
