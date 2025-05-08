@@ -1,5 +1,5 @@
-# Maquetación Pasteleria Astrocakes
+# Pasteleria Astrocakes
 
-Maquetación con HTML de la página de una pastelería ficticia llamada Astrocakes.
+Aplicación Web desarrollada para promocionar la pastelería ficticia "Astrocakes".
 
-[Click aquí para visualizar el despliegue de la página web](https://martinotamendit.github.io/PasteleriaAstrocakes/)
+[Click aquí para visualizar el despliegue del front-end de la aplicación](https://martinotamendit.github.io/PasteleriaAstrocakes/)
