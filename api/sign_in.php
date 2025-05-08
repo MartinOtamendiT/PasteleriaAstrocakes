@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/bootstrap-5.2.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/loginStyles.css">
     <link rel="stylesheet" href="../css/index2.css">
+    <link rel="stylesheet" href="../css/load.css">
     <link rel="stylesheet" type="text/css" href="../CSS/bootstrap/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
@@ -28,7 +29,6 @@
     <link rel="icon" href="../img/MoonbitTransparent.png">
     <link rel="stylesheet" href="../css/bootstrap-5.2.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/catalogoStyles.css">
-    <link rel="stylesheet" href="../css/load.css">
 </head>
 <body>
     <div class="loader-container">
@@ -47,7 +47,7 @@
                     <a class="nav-link" href="../index.html"><p class=" ff">Home</p></a>
                 </li>
                 <li class="nav-item navtext">
-                    <a class="nav-link navtext" href="../php/login.php"><p class=" ff">Login</p></a>
+                    <a class="nav-link navtext" href="../api/login.php"><p class=" ff">Login</p></a>
                 </li>
                 <a class="d-none d-lg-block" href="../index.html"><img src="../img/Astrocakes-word.png"></a>
                 <li class="nav-item">
@@ -64,12 +64,6 @@
     <section class="container">
         <div class="row g-0 justify-content-center">
             <div class="login-window">
-                <?php
-                    $error = $_REQUEST['error'];
-                    if($error == 1){
-                        print('<div class="alert alert-danger">Campos vacíos</div>');
-                    }
-                ?>
                 <form action="registrar.php" method="post">
                     <div><h2>Sign In</h2></div>
                     <img class="astronaut-login" src="../img/Rocket3.gif" alt="Profile Picture">

@@ -1,3 +1,9 @@
+<?php
+    session_start();
+    if(!isset($_SESSION['usuario'])){
+        header("location:./login.php");
+    }
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,29 +12,13 @@
     <meta name="MobileOptimized" content="width">
     <meta name="HandheldFriendly" content="true">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign in - Astrocakes</title>
+    <title>Welcome - Astrocakes</title>
     <link rel="icon" href="../img/MoonbitTransparent.png">
     <link rel="stylesheet" href="../css/bootstrap-5.2.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="../css/loginStyles.css">
-    <link rel="stylesheet" href="../css/index2.css">
     <link rel="stylesheet" href="../css/load.css">
-    <link rel="stylesheet" type="text/css" href="../CSS/bootstrap/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap-icons.css">
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.cs">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-    <!--script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="icon" href="../img/MoonbitTransparent.png">
-    <link rel="stylesheet" href="../css/bootstrap-5.2.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="../css/catalogoStyles.css">
 </head>
 <body>
     <div class="loader-container">
@@ -47,7 +37,7 @@
                     <a class="nav-link" href="../index.html"><p class=" ff">Home</p></a>
                 </li>
                 <li class="nav-item navtext">
-                    <a class="nav-link navtext" href="../php/login.php"><p class=" ff">Login</p></a>
+                    <a class="nav-link navtext" href="../api/login.php"><p class=" ff">Login</p></a>
                 </li>
                 <a class="d-none d-lg-block" href="../index.html"><img src="../img/Astrocakes-word.png"></a>
                 <li class="nav-item">
@@ -60,40 +50,16 @@
         </div>
     </nav>
     <!-- FIN NAVBAR -->
-    <br>
     <section class="container">
         <div class="row g-0 justify-content-center">
             <div class="login-window">
+                
+                <div><h2>Bienvenido a Astrocakes</h2></div>
                 <form action="registrar.php" method="post">
-                    <div><h2>Sign In</h2></div>
-                    <img class="astronaut-login" src="../img/Rocket3.gif" alt="Profile Picture">
-                    <div>
-                        <label class="form-label">Nombre</label>
-                        <input class="form-control" type="text" name="name" placeholder="Nombre">
-                    </div>
-                    <div>
-                        <label class="form-label">Apellido</label>
-                        <input class="form-control" type="text" name="last_name" placeholder="Apellido">
-                    </div>
-                    <div>
-                        <label class="form-label">Email</label>
-                        <input class="form-control" type="text" name="email" placeholder="Email">
-                    </div>
-                    <div>
-                        <label class="form-label">Contraseña</label>
-                        <input class="form-control" type="text" name="pass" placeholder="Contraseña">
-                    </div>
-                    <div>
-                        <input class="form-control" type="hidden" name="oculto" value="Dato Oculto">
-                    </div>
-                    <br>
-                    <input type="submit" class="btn btn-primary" value="Crear cuenta">
-                    <br>
-                    <br>
-                    <div>
-                        <label class="form-label">¿Ya tienes una cuenta?</label>
-                        <a href="login.php">Inicia sesión aquí</a><br>
-                    </div>
+                    <div><p>Diviertete en nuestra página web.</p></div>
+                    <img class="astronaut-login" src="../img/alien2.gif" alt="Profile Picture">
+                    
+                    <a href="./login.php" class="btn btn-danger">Cerrar sesión</a>
                     <br>
                 </form>
             </div>
