@@ -1,0 +1,17 @@
+{
+  "functions": {
+    "php/*.php": {
+      "runtime": "vercel-php@0.6.0"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)",  "dest": "/php/conexion.php" },
+    { "src": "/(.*)",  "dest": "/php/login-error.php" },
+    { "src": "/(.*)",  "dest": "/php/login.php" },
+    { "src": "/(.*)",  "dest": "/php/registrar.php" },
+    { "src": "/(.*)",  "dest": "/php/sign_in-error.php" },
+    { "src": "/(.*)",  "dest": "/php/sign_in.php" },
+    { "src": "/(.*)",  "dest": "/php/validar.php" },
+    { "src": "/(.*)",  "dest": "/php/welcome.php" }
+  ]
+}
